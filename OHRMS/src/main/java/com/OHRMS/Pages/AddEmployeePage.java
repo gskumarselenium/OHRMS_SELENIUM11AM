@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.OHRMS.baseclass.Baseclass;
 
@@ -11,7 +12,7 @@ public class AddEmployeePage extends Baseclass {
 
 	public AddEmployeePage() throws Exception{
 		super();
-	}
+		}
 	
 	@FindBy(name="firstName")
 	WebElement firstname;

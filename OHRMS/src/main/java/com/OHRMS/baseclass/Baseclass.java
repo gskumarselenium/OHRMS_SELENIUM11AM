@@ -31,7 +31,7 @@ public class Baseclass {
 		prop=new Properties(); // to create propery file statements
 	FileInputStream fip=new FileInputStream
 			("E:\\SELENIUM WORKSPACE 2017\\SELENIUM 11 to 1PM\\OHRMS\\src\\main\\java\\com\\OHRMS\\config\\config.properties");
-	prop.load(fip); // to laod config.properties file properly.
+	prop.load(fip); // to load config.properties file properly.
 	
 	}
 

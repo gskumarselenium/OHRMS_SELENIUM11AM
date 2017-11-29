@@ -19,6 +19,7 @@ public class LoginPage extends Baseclass {
 	}
 
 	//object repository or page factory
+	
 	@FindBy(name="txtUsername")
 	WebElement txtUsername;
 	
