@@ -7,8 +7,9 @@
         <methods>
           <include name="setup"/>
           <include name="LoginTest"/>
-          <include name="teardown"/>
-          <include name="loginPageTitleTest"/>
+          <include name="setextent"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
         </methods>
       </class> <!-- com.OHRMS.testcases.LoginPageTest -->
     </classes>

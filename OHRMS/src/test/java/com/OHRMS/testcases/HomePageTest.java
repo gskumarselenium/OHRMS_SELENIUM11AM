@@ -16,7 +16,7 @@ public class HomePageTest extends Baseclass{
 
 	com.OHRMS.Pages.HomePage hp;
 	LoginPage lp;
-	//public String Homepageimg;
+	public String Homepageimg;
 
 		public HomePageTest() throws IOException {
 		super();
@@ -28,8 +28,8 @@ public class HomePageTest extends Baseclass{
 		initialization();
 		lp=new LoginPage();
 		hp=lp.login(prop.getProperty("username"),prop.getProperty("password"));
-		String Homepageimg = null ;
-		takescreenshot(Homepageimg);
+		
+		getScreenshot(driver, Homepageimg);
 		
 	}
 	
